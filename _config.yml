@@ -1,8 +1,62 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
-theme: just-the-docs
+# Cohesionet!
+#
+title: Enterprise GenAI Adoption
+description: >- # 
+  Enterprise GenAI Adoption Guide equips you with a practical framework to: Identify high-impact GenAI use cases that streamline workflows and unlock innovation; Design effective GenAI solutions tailored to your specific needs; Select the most suitable GenAI technology and platform for deployment; Implement your GenAI solution with a focus on security, ethics, and operational readiness. This guide emphasizes potential risks and fosters GenAI learning journey. Packed with practical advice, clear explanations, and a flexible implementation journey, this book is your one-stop resource for successful GenAI adaptation in your organization.
+url: "https://iservicebus.github.io/genai-adoption-guide/" 
+baseurl: "" # the name of your github repo
 
-url: https://just-the-docs.github.io
+# use false to turn off any social media links
+twitter: https://twitter.com/jingnanzhou
+facebook: false
+instagram: false
+github: https://github.com/iservicebus
+linkedin: https://www.linkedin.com/in/jingnanzhou/
+medium: false
+google-scholar: false
+email: false
+
+author: Jingnan Zhou
+author-bio: Executive / entrepreneur / coder  # change to false to hide
+
+# Google Analytics Tracking (optional)
+# Supports a CSV of tracking ID strings (eg. "UA-1234567-89,G-1AB234CDE5")
+# Note: the main Just the Docs site does *not* use Google Analytics.
+ga_tracking: G-PR6HBQHGWC
+ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
+
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Cohesionet:
+    - 'https://cohesionet.com'
+
+theme: just-the-docs
+
+
+# Footer content
+# appears at the bottom of every page's main content
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+footer_content: "Copyright &copy; 2024  <a href=\"https://cohesionet.com\">Cohesionet</a>" 
+
+# Footer last edited timestamp
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+
+
+# Footer "Edit this page on GitHub" link text
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/jingnanzhou/genai-adoption-guide" # the github URL for your repo
+gh_edit_branch: "main" # the branch that your docs is served from
+# gh_edit_source: docs # the source that your files originate from
+gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
+
+
+
+
+
+
