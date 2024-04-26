@@ -1,5 +1,10 @@
 # just-the-docs-template
 
+
+Image:
+![Alt text for broken image link](assets/img/GenAI_adoption.png)
+
+
 This is a *bare-minimum* template to create a [Jekyll] site that:
 
 - uses the [Just the Docs] theme;
